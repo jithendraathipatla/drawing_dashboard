@@ -28,11 +28,35 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:where(.css-1i9hnpv).ant-card .ant-card-head {
+  padding: 0 10px;
+}
+
+:where(.css-1i9hnpv).ant-card .ant-card-body {
+  padding: 10px;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-card .ant-card-head {
+  padding: 0 10px;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-card .ant-card-body {
+  padding: 10px;
+}
+
+:where(.css-dev-only-do-not-override-1i9hnpv).ant-card .ant-card-head {
+  min-height: 40px;
+}
+
+:where(.css-1i9hnpv).ant-card .ant-card-head {
+  min-height: 40px;
+}
+
+.filters button{
+  margin-left: 10px;
+ 
+}
+
+.filters a{
+  color: white;
 }
